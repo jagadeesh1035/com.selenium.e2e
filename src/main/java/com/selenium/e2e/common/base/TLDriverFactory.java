@@ -2,7 +2,7 @@ package com.selenium.e2e.common.base;
 
 import org.openqa.selenium.WebDriver;
 
-public class tlDriverFactory extends coreProperties{
+public class TLDriverFactory extends CoreProperties{
 	private static ThreadLocal<WebDriver> tlDriver = new ThreadLocal<WebDriver>();
 	
 	/**

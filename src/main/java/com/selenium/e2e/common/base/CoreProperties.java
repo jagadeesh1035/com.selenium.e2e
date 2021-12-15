@@ -5,10 +5,10 @@ import java.util.Properties;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 
-public class coreProperties {
+public class CoreProperties {
 
 	protected WebDriver driver;
 	public static ThreadLocal<Properties> properties = new ThreadLocal<Properties>();
 
-	public static final Logger logger = Logger.getLogger(coreProperties.class);
+	public static final Logger logger = Logger.getLogger(CoreProperties.class);
 }

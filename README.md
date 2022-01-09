@@ -1,29 +1,34 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Selenium framwork built strong with all integrations to latest tech stack
 
-### What is this repository for? ###
+### TECH STACK ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+* Java
+* Selenium
+* TestNG
+* Maven
+* AssertJ
 
-### How do I get set up? ###
+### DESIGN PATTERNS ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+* Page Object Model
+* Page Factory
+* Singleton
+* Factory design
 
-### Contribution guidelines ###
+### REPORTING ###
 
-* Writing tests
-* Code review
-* Other guidelines
+* Extent Reports
 
-### Who do I talk to? ###
+### EXTERNAL FILE READERS ###
 
-* Repo owner or admin
-* Other community or team contact
+* Excel sheet using Zero Cell library
+* config file (json) using owner library
+
+### FEATURES ###
+
+* Parallel cross browser testing
+* Selenoid integration
+* Docker integration
+* Selenium Grid

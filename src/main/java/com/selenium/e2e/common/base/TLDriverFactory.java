@@ -10,6 +10,8 @@ public class TLDriverFactory extends CoreProperties{
 	 */
 	public static final String FIREFOX = "FIREFOX";
 	public static final String CHROME = "CHROME";
+	public static final String IE = "IE";
+	
 	public static final String GRID = "GRID";
 	public static final String MOBILE = "MOBILE";
 	public static final String BROWSERSTACK = "BROWSERSTACK";

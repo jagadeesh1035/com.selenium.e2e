@@ -19,7 +19,7 @@ public class GoogleSearchTest extends BaseTest{
 		if(DriverFactory.getDriver().findElement(By.xpath("//h1[text()='Search Results']/parent::div")).isDisplayed()) {
 			System.out.println("Search results are displayed");
 		}else {
-			System.out.println("Search results are not displayed");
+			System.err.println("Search results are not displayed");
 		}
 	}
 	
@@ -31,7 +31,7 @@ public class GoogleSearchTest extends BaseTest{
 		if(DriverFactory.getDriver().findElement(By.xpath("//h1[text()='Search Results']/parent::div")).isDisplayed()) {
 			System.out.println("Search results are displayed");
 		}else {
-			System.out.println("Search results are not displayed");
+			System.err.println("Search results are not displayed");
 		}
 	}
 	@Test
@@ -42,7 +42,7 @@ public class GoogleSearchTest extends BaseTest{
 		if(DriverFactory.getDriver().findElement(By.xpath("//h1[text()='Search Results']/parent::div")).isDisplayed()) {
 			System.out.println("Search results are displayed");
 		}else {
-			System.out.println("Search results are not displayed");
+			System.err.println("Search results are not displayed");
 		}
 	}
 	@Test(enabled = false)
@@ -53,7 +53,7 @@ public class GoogleSearchTest extends BaseTest{
 		if(DriverFactory.getDriver().findElement(By.xpath("//h1[text()='Search Results']/parent::div")).isDisplayed()) {
 			System.out.println("Search results are displayed");
 		}else {
-			System.out.println("Search results are not displayed");
+			System.err.println("Search results are not displayed");
 		}
 	}
 	

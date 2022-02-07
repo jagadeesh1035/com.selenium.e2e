@@ -22,7 +22,7 @@ public class GoogleSearchTwoTest extends BaseTest {
 		if(DriverFactory.getDriver().findElement(By.xpath("//h1[text()='Search Results']/parent::div")).isDisplayed()) {
 			System.out.println("Search results are displayed");
 		}else {
-			System.out.println("Search results are not displayed");
+			System.err.println("Search results are not displayed");
 		}
 	}
 	
@@ -35,7 +35,7 @@ public class GoogleSearchTwoTest extends BaseTest {
 		if(DriverFactory.getDriver().findElement(By.xpath("//h1[text()='Search Results']/parent::div")).isDisplayed()) {
 			System.out.println("Search results are displayed");
 		}else {
-			System.out.println("Search results are not displayed");
+			System.err.println("Search results are not displayed");
 		}
 	}
 	@Test(enabled = false)
@@ -46,7 +46,7 @@ public class GoogleSearchTwoTest extends BaseTest {
 		if(DriverFactory.getDriver().findElement(By.xpath("//h1[text()='Search Results']/parent::div")).isDisplayed()) {
 			System.out.println("Search results are displayed");
 		}else {
-			System.out.println("Search results are not displayed");
+			System.err.println("Search results are not displayed");
 		}
 	}
 	@Test
@@ -57,7 +57,7 @@ public class GoogleSearchTwoTest extends BaseTest {
 		if(DriverFactory.getDriver().findElement(By.xpath("//h1[text()='Search Results']/parent::div")).isDisplayed()) {
 			System.out.println("Search results are displayed");
 		}else {
-			System.out.println("Search results are not displayed");
+			System.err.println("Search results are not displayed");
 		}
 	}
 	
